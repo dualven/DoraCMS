@@ -1,4 +1,7 @@
 # doracms 2.1.1
+(1)不能上传文档啊
+
+（2）直接编译有问题
 
 ![DoraCMS](https://www.html-js.cn/upload/images/ueditor/1056072974769197056.jpg "DoraCMS")
 
