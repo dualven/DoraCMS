@@ -18,12 +18,12 @@ module.exports = {
     salt_md5_key: "dora", // MD5的盐，用于加密密码
 
     //    数据库配置
-    URL: 'mongodb://127.0.0.1:27017/doracms2',
+    URL: 'mongodb://10.60.2.175:27017/doracms2',
     DB: 'doracms2',
-    HOST: '127.0.0.1',
+    HOST: '10.60.2.175',
     PORT: 27017,
-    USERNAME: 'doracms',
-    PASSWORD: 'password',
+    USERNAME: 'doramart',
+    PASSWORD: 'doramart',
 
     // 七牛配置
     openqn: false, //是否开启,若为true 则下面的信息必须配置正确完整
@@ -36,9 +36,9 @@ module.exports = {
 
     // redis配置
     openRedis: true, // 测试或生产环境必须开启
-    redis_host: '127.0.0.1',
+    redis_host: '10.60.2.175',
     redis_port: 6379,
-    redis_psd: 'your redis password',
+    redis_psd: '123456',
     redis_db: 0,
     redis_ttl: 12, // 12 小时
 

@@ -130,9 +130,9 @@ if (settings.openRedis) {
         saveUninitialized: true,
         store: new MongoStore({
             db: "session",
-            host: "localhost",
+            host: settings.HOST,
             port: 27017,
-            url: !isProd ? settings.URL : 'mongodb://' + settings.USERNAME + ':' + settings.PASSWORD + '@' + settings.HOST + ':' + settings.PORT + '/' + settings.DB + ''
+            url:  'mongodb://' + settings.USERNAME + ':' + settings.PASSWORD + '@' + settings.HOST + ':' + settings.PORT + '/' + settings.DB + ''
         })
     }
 }
